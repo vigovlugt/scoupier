@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
+    "build-vercel": "vinxi build --preset vercel",
     "start": "vinxi start",
     "typecheck": "tsc --noEmit",
     "serve": "vite preview"
