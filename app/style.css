@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html,
+    body {
+        @apply text-gray-200;
+        background-color: hsl(240 10% 3.9%);
+    }
+    * {
+        border: 0 solid hsl(240 3.7% 15.9%);
+    }
+}
